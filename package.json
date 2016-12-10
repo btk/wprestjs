@@ -1,0 +1,26 @@
+{
+    "name": "wprestjs",
+    "version": "1.0.0",
+    "description": "[WIP] Javascript client for wordpress 4.7+ rest api",
+    "main": "app/index.js",
+    "author": "Burak Tokak",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack",
+        "server": "webpack-dev-server --port 3001 --host 0.0.0.0",
+        "start": "npm run server"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.6.5",
+        "babel-core": "^6.18.2",
+        "babel-loader": "^6.2.7",
+        "babel-preset-es2015": "^6.18.0",
+        "babel-preset-stage-2": "^6.18.0",
+        "html-webpack-plugin": "^2.24.1",
+        "webpack": "^1.13.3",
+        "webpack-dev-server": "^1.16.2"
+    },
+    "dependencies": {
+        "http-server": "^0.9.0"
+    }
+}
