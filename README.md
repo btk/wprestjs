@@ -21,14 +21,16 @@ npm install wprestjs --save-dev
 
 In your js file with es6;
 ~~~~JS
-import wp from 'wprestjs';
+import WPRestAPI from 'wprestjs';
+
+let wp = new WPRestAPI("https://demo.wp-api.org/wp-json/wp/v2");
 
 wp.getPosts({number:2})
   .then((resp) =>
   {
   console.log(resp);
   });
-  
+
 ~~~~
 
 The class is in WIP, you can contribute it by pull requests in this repository.

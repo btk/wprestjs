@@ -1,6 +1,6 @@
 class WPRestAPI {
-    constructor() {
-        this.url = 'https://demo.wp-api.org/wp-json/wp/v2';
+    constructor(url) {
+        this.url = url;
     }
     getJSON(url) {
         return new Promise(function(resolve, reject) {

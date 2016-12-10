@@ -1,6 +1,6 @@
 import WPRestAPI from "./wprestjs";
 
-let wp = new WPRestAPI();
+let wp = new WPRestAPI("https://demo.wp-api.org/wp-json/wp/v2");
 
 wp.getPosts({
     number: 3
