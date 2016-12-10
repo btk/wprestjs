@@ -20,8 +20,8 @@ npm install wprestjs --save-dev
 ~~~~
 
 In your js file with es6;
-~~~~
-import wp from "wprestjs";
+~~~~JS
+import wp from 'wprestjs';
 
 wp.getPosts({number:2})
   .then((resp) =>
