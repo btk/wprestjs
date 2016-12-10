@@ -19,4 +19,16 @@ This project also can be used as a wordpress rest api boilerplate. But if you on
 npm install wprestjs --save-dev
 ~~~~
 
+In your js file with es6;
+~~~~
+import wp from "wprestjs";
+
+wp.getPosts({number:2})
+  .then((resp) =>
+  {
+  console.log(resp);
+  });
+  
+~~~~
+
 The class is in WIP, you can contribute it by pull requests in this repository.
